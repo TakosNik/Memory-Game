@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             var card = document.createElement('img')
             card.setAttribute('src', 'images/blank.jpg')
             card.setAttribute('data-id', i)
-            card.addEventListener('click', flipcard)
+            card.addEventListener('click', flipCard)
             grid.appendChild(card)
         }
     }
@@ -112,5 +112,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //card options
+    
 })
